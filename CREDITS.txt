@@ -1,0 +1,15 @@
+TEST BUILD CREDITS
+==================
+
+Visual reference:
+Forever Dungeon Journal v1.2.0 by Exehn, supplied by the server owner as the requested design template.
+
+This v0.2.0 build is a WoW 3.3.5a rewrite rather than a direct port of the modern addon engine.
+The test build reuses the supplied Alliance/Horde, boss-level, quest-chain and rare-portrait frame artwork so the visual comparison can be judged accurately.
+
+3.3.5 reference data used while building this test:
+- Blizzard client-native loading-screen and WorldMap texture paths.
+- Atlas / AtlasLoot-era 3.3.5 addon data for instance-map structure and encounter-specific loot/drop-rate reference values.
+- The server owner's own Dungeon Handbook material for custom Individual Progression trash/boss behaviour and quest guidance.
+
+Before any public release, review the reference addon's redistribution/license terms. Test media can be replaced with client-native or original server artwork without changing the journal layout.
