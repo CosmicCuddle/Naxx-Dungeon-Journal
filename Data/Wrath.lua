@@ -1,0 +1,21 @@
+local SDJ = DungeonJournal
+local CROP = {0.04,0.96,0.29,0.73}
+local function Add(id,name,level,location,art)
+    SDJ:AddDungeon("Wrath", {id=id,name=name,level=level,location=location,tag="Dungeon",art=art,crop=CROP})
+end
+Add("uk","Utgarde Keep","68-72","Howling Fjord","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenUtgarde")
+Add("nexus","The Nexus","69-73","Borean Tundra","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenNexus70")
+Add("an","Azjol-Nerub","72-75","Dragonblight","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenAzjolNerub76")
+Add("ak","Ahn'kahet: The Old Kingdom","73-76","Dragonblight","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenAzjolNerub76")
+Add("dtk","Drak'Tharon Keep","74-77","Grizzly Hills","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenDrakTharon")
+Add("vh","The Violet Hold","75-77","Dalaran","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenDalaranPrison")
+Add("gundrak","Gundrak","76-78","Zul'Drak","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenGunDrak")
+Add("hos","Halls of Stone","77-80","The Storm Peaks","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenUlduar77")
+Add("hol","Halls of Lightning","79-80","The Storm Peaks","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenUlduar80")
+Add("oculus","The Oculus","78-80","Borean Tundra","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenNexus80")
+Add("up","Utgarde Pinnacle","78-80","Howling Fjord","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenUtgardePinnecle")
+Add("cos","The Culling of Stratholme","78-80","Caverns of Time","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenOldStrathome")
+Add("toc5","Trial of the Champion","80","Icecrown","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenArgentDungeon")
+Add("fos","The Forge of Souls","80","Icecrown Citadel","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenIcecrown5man")
+Add("pos","Pit of Saron","80","Icecrown Citadel","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenPitofSaron")
+Add("hor","Halls of Reflection","80","Icecrown Citadel","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenHallsofReflection")
