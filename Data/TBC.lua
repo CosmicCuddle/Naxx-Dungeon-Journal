@@ -1,0 +1,21 @@
+local SDJ = DungeonJournal
+local CROP = {0.04,0.96,0.29,0.73}
+local function Add(id,name,level,location,art)
+    SDJ:AddDungeon("TBC", {id=id,name=name,level=level,location=location,tag="Dungeon",art=art,crop=CROP})
+end
+Add("ramparts","Hellfire Ramparts","58-63","Hellfire Peninsula","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenHellfireCitadel")
+Add("bloodfurnace","The Blood Furnace","59-64","Hellfire Peninsula","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenHellfireCitadel")
+Add("shattered","The Shattered Halls","68-70","Hellfire Peninsula","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenHellfireCitadel")
+Add("slavepens","The Slave Pens","60-64","Zangarmarsh","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenCoilFang")
+Add("underbog","The Underbog","61-65","Zangarmarsh","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenCoilFang")
+Add("steamvault","The Steamvault","68-70","Zangarmarsh","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenCoilFang")
+Add("manatombs","Mana-Tombs","63-67","Terokkar Forest","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenAuchindoun")
+Add("auchcrypts","Auchenai Crypts","64-68","Terokkar Forest","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenAuchindoun")
+Add("sethekk","Sethekk Halls","66-70","Terokkar Forest","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenAuchindoun")
+Add("shadowlab","Shadow Labyrinth","68-70","Terokkar Forest","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenAuchindoun")
+Add("oldhillsbrad","Old Hillsbrad Foothills","66-68","Caverns of Time","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenCavernsTime")
+Add("blackmorass","The Black Morass","68-70","Caverns of Time","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenCavernsTime")
+Add("mechanar","The Mechanar","68-70","Netherstorm","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenTempestKeep")
+Add("botanica","The Botanica","68-70","Netherstorm","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenTempestKeep")
+Add("arcatraz","The Arcatraz","68-70","Netherstorm","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenTempestKeep")
+Add("mgt","Magisters' Terrace","70","Isle of Quel'Danas","Interface\\GLUES\\LOADINGSCREENS\\LoadScreenSunwell5Man")
