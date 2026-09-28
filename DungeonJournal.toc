@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: |cffFFD100Dungeon|r Journal
+## Notes: Dungeon journal for the Naxxramas server, covering Vanilla, The Burning Crusade and Wrath of the Lich King.
+## Author: CosmicCuddle
+## Version: 0.2.1
+## SavedVariables: DungeonJournalDB
+
+Core.lua
+Data\Vanilla.lua
+Data\TBC.lua
+Data\Wrath.lua
+UI.lua
